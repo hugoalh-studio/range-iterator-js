@@ -7,6 +7,7 @@ authors:
   - name: "hugoalh Studio"
 repository-code: "https://github.com/hugoalh-studio/range-iterator-js"
 keywords:
+  - "iterate"
   - "iterator"
   - "javascript"
   - "js"
