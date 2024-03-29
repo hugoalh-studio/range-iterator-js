@@ -1,18 +1,27 @@
 {
 	"name": "@hugoalh/range-iterator",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "A module to iterate between range.",
 	"keywords": [
 		"range",
 		"iterate",
 		"iterator"
 	],
-	"homepage": "https://github.com/hugoalh-studio/range-iterator-nodejs#readme",
+	"homepage": "https://github.com/hugoalh-studio/range-iterator-js#readme",
 	"bugs": {
-		"url": "https://github.com/hugoalh-studio/range-iterator-nodejs/issues"
+		"url": "https://github.com/hugoalh-studio/range-iterator-js/issues"
 	},
 	"license": "MIT",
 	"author": "hugoalh",
+	"files": [
+		"asset/**",
+		"bin/**",
+		"dist/**",
+		"lib/**",
+		"LICENSE*.md",
+		"package.json",
+		"README*.md"
+	],
 	"type": "module",
 	"main": "./dist/main.js",
 	"exports": {
@@ -22,18 +31,18 @@
 	"types": "./dist/main.d.ts",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/hugoalh-studio/range-iterator-nodejs.git"
+		"url": "git+https://github.com/hugoalh-studio/range-iterator-js.git"
 	},
 	"scripts": {
 		"build": "tsc"
 	},
 	"devDependencies": {
-		"@stylistic/eslint-plugin": "^1.6.2",
-		"@typescript-eslint/eslint-plugin": "^7.0.2",
-		"@typescript-eslint/parser": "^7.0.2",
+		"@stylistic/eslint-plugin": "^1.7.0",
+		"@typescript-eslint/eslint-plugin": "^7.4.0",
+		"@typescript-eslint/parser": "^7.4.0",
 		"eslint": "^8.57.0",
 		"eslint-plugin-only-warn": "^1.1.0",
-		"typescript": "^5.3.3"
+		"typescript": "^5.4.3"
 	},
 	"engines": {
 		"node": ">=16.13.0"
